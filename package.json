@@ -1,0 +1,14 @@
+{
+  "name": "qualityland",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Quality Land Conference static site generator",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.0.0",
+    "marked": "^15.0.0",
+    "nunjucks": "^3.2.4"
+  }
+}
