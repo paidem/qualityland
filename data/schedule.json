@@ -1,0 +1,20 @@
+[
+  { "time": "8:00", "type": "registration", "title": "Registration & Welcome Coffee", "description": "Get your badge and start networking!", "icon": "start" },
+  { "time": "9:00", "type": "intro", "number": 0, "title": "Introduction", "description": "We will kick things off", "icon": "info" },
+  { "time": "9:15", "type": "keynote", "number": 1, "title": "Old Problems of New Agents: Oracles and Communication", "speakerSlug": "szilard-szell", "icon": "microphone" },
+  { "time": "10:00", "type": "talk", "number": 2, "title": "From Boring Vulnerability Analysis to Security Testing Beyond Checklists", "speakerSlug": "sebastian-malyska", "icon": "microphone" },
+  { "time": "10:30", "type": "break", "title": "Morning Break", "description": "30 min.", "icon": "cup" },
+  { "time": "11:00", "type": "talk", "number": 3, "title": "Interview with an AI", "speakerSlug": "olivier-denoo", "icon": "microphone" },
+  { "time": "11:30", "type": "talk", "number": 4, "title": "Mythbusters: Test Automation", "speakerSlug": "michael-pilaeten", "icon": "microphone" },
+  { "time": "12:00", "type": "game", "number": 5, "title": "Interactive QA Trivia", "speakerSlug": "nikolaj-tolkaciov", "icon": "microphone" },
+  { "time": "12:30", "type": "lunch", "title": "Lunch Break", "description": "1 hour - catering is included for all participants.", "icon": "lunch" },
+  { "time": "13:30", "type": "talk", "number": 6, "title": "Performance Testing at Scale: When tools and scripts are no longer enough", "speakerSlug": "joel-oliveira", "icon": "microphone" },
+  { "time": "14:00", "type": "talk", "number": 7, "title": "Quality with AI and AI with Quality", "speakerSlug": "klaudia-dussa-zieger", "icon": "microphone" },
+  { "time": "14:30", "type": "talk", "number": 8, "title": "Testing Is a People Business - Why Quality Fails Without Human Connection", "speakerSlug": "richard-seidl", "icon": "microphone" },
+  { "time": "15:00", "type": "break", "title": "Afternoon Break", "description": "30 min.", "icon": "cup" },
+  { "time": "15:30", "type": "talk", "number": 9, "title": "Ctrl + Alt + Test: Stories from my QA Frontline", "speakerSlug": "dr-lovelesh-beeharry", "icon": "microphone" },
+  { "time": "16:00", "type": "talk", "number": 10, "title": "Test Leadership at the Organizational Level", "speakerSlug": "kari-kakkonen", "icon": "microphone" },
+  { "time": "16:30", "type": "keynote", "number": 11, "title": "When AI Enters the Test Team: The Conflict That Changes Everything", "speakerSlug": "nishan-portoyan", "icon": "microphone" },
+  { "time": "17:15", "type": "evening", "title": "Long Evening Break", "description": "1 hour 45 minutes", "icon": "clock" },
+  { "time": "19:00", "type": "fail-nights", "title": "Fail Nights by Simona Laiconaitė", "speakerName": "Simona Laiconaitė", "description": "Informal and casual storytelling with refreshments and laughter", "icon": "cocktail" }
+]

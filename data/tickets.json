@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Early Bird Pass",
+    "subtitle": "1-Day Onsite Conference",
+    "heading": "Early Bird Pass | Quality Land 2026",
+    "price": "149.00",
+    "currency": "EUR",
+    "features": [
+      { "label": "All-Access Pass", "description": "Full entry to every session featuring elite international and local speakers." },
+      { "label": "The \"Fail Night\" Experience", "description": "Raw, unfiltered stories of mistakes and lessons learned from the front lines of QE." },
+      { "label": "Full-Day Catering", "description": "Stay fueled with a complimentary chef-prepared lunch, plus premium coffee and refreshments throughout the day." },
+      { "label": "Strategic Networking", "description": "Dedicated time for community building and informal discussions with industry peers." }
+    ]
+  },
+  {
+    "name": "Full Coverage Pass",
+    "subtitle": "1-Day Onsite Conference",
+    "heading": "Full Coverage Pass | Quality Land 2026",
+    "price": "249.00",
+    "currency": "EUR",
+    "features": [
+      { "label": "All-Access Pass", "description": "Full entry to every session featuring elite international and local speakers." },
+      { "label": "The \"Fail Night\" Experience", "description": "Raw, unfiltered stories of mistakes and lessons learned from the front lines of QE." },
+      { "label": "Full-Day Catering", "description": "Stay fueled with a complimentary chef-prepared lunch, plus premium coffee and refreshments throughout the day." },
+      { "label": "Strategic Networking", "description": "Dedicated time for community building and informal discussions with industry peers." }
+    ]
+  }
+]

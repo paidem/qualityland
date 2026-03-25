@@ -1,0 +1,156 @@
+[
+  {
+    "slug": "szilard-szell",
+    "name": "Szilárd Széll",
+    "title": "DevOps and AI Adaptation Lead",
+    "company": "Eficode",
+    "country": "Finland",
+    "photo": "images/speakers/szilard-szell.png",
+    "linkedin": "https://www.linkedin.com/in/szellszilard/",
+    "bio": "Szilárd Széll is a DevOps and AI adaptation lead passionate about Quality with over 25 years of experience. He has played a key role in building testing communities and has been involved in the program committee of major events. Recently, he co-founded the Finnish Testing Meetup, which has grown into an active community of over 500 members. Szilard also contributes to the advancement of testing by sharing his expertise on stage and creating content as an active member of ISTQB.",
+    "talk": {
+      "number": 1,
+      "title": "Old Problems of New Agents: Oracles and Communication"
+    }
+  },
+  {
+    "slug": "sebastian-malyska",
+    "name": "Sebastian Małyska",
+    "title": "QA Engineer",
+    "company": "Smart Coders",
+    "country": "Poland",
+    "photo": "images/speakers/sebastian-malyska.png",
+    "linkedin": "https://www.linkedin.com/in/malyska/",
+    "bio": "Sebastian Małyska is a tester, engineer, QA practitioner, and lecturer with nearly two decades of experience spanning manual testing, API testing, automation engineering and QA leadership. With an engineering background in telecommunications and electronics, he focuses on pragmatic quality practices that scale in real projects. Sebastian is an active ISTQB contributor and currently serves on the ISTQB Executive Team as Secretary. A frequent speaker at events in Poland and internationally, he actively supports the global testing community through conference contributions and international initiatives that help advance the profession.",
+    "talk": {
+      "number": 2,
+      "title": "From Boring Vulnerability Analysis to Security Testing Beyond Checklists"
+    }
+  },
+  {
+    "slug": "olivier-denoo",
+    "name": "Olivier Denoo",
+    "title": "Vice President",
+    "company": "PS Testware SAS",
+    "country": "France",
+    "photo": "images/speakers/olivier-denoo.png",
+    "linkedin": "https://www.linkedin.com/in/olivier-denoo/",
+    "bio": "Olivier served as President of the ISTQB from May 2019 to April 2023 and is currently Vice President of the ISTQB. He is also President of the CFTL, the French ISTQB Board, and the official IREB, IQBBA, and TMMi representative in France.\n\nThe CFTL organizes the largest software testing conference in Europe, JFTL, with more than 1,200 attendees.\n\nOlivier is also Vice President of ps_testware SAS, the French subsidiary of the ps_testware Group. In this role, he focuses on business development, recruiting local expert teams, building sustainable partnerships, and promoting software testing and quality. He is additionally involved in auditing test projects and organizations, providing high-level consultancy and support.\n\nWith nearly 30 years of experience, Olivier is an international speaker who has presented at numerous conferences, including A4Q World Conference, Geekle QA, iSQE, Test-IT Africa, SQA Days, BA Days, JFIE, TestWarez, SEETEST, STF, Iqnite, JFTL, JMTL, JTTL, Analyst Days, Quality Week, EuroSTAR, and DASIA.\n\nHe is also actively involved in the development of new certification schemes such as IQBBA (Business Analysis) and IREB (Requirements Engineering), and is a co-author of several books and articles on software testing.",
+    "talk": {
+      "number": 3,
+      "title": "Interview with an AI"
+    }
+  },
+  {
+    "slug": "michael-pilaeten",
+    "name": "Michaël Pilaeten",
+    "title": "Head of Quality Engineering",
+    "company": "Sofico",
+    "country": "Belgium",
+    "photo": "images/speakers/michael-pilaeten.png",
+    "linkedin": "https://www.linkedin.com/in/michaelpilaeten/",
+    "bio": "Breaking the system, helping to rebuild it, and providing the guidance to avoid future pitfalls—that's me in a nutshell. With over 20 years of experience in software consultancy across diverse environments, I've seen both the best and worst of software development. I am responsible for guiding consultants, partners, and customers on their personal and professional paths toward excellence. I am also the Chair of the ISTQB Advanced Working Group, an author, and an international keynote speaker.",
+    "talk": {
+      "number": 4,
+      "title": "Mythbusters: Test Automation"
+    }
+  },
+  {
+    "slug": "nikolaj-tolkaciov",
+    "name": "Nikolaj Tolkačiov",
+    "title": "Engineering Manager",
+    "company": "Nord Security",
+    "country": "Lithuania",
+    "photo": "images/speakers/nikolaj-tolkaciov.png",
+    "linkedin": "https://www.linkedin.com/in/nikolaj-tolkaciov/",
+    "bio": "Nikolaj Tolkačiov is an Engineering Manager and independent software quality consultant who works with teams to turn quality from a bottleneck into a competitive advantage. He specializes in QA strategy, test automation, and process improvement, and serves as a Lithuanian ISTQB Executive Board Member. Nikolaj is a frequent speaker and podcaster, sharing practical lessons from real-world engineering teams.",
+    "talk": {
+      "number": 5,
+      "title": "Interactive QA Trivia"
+    }
+  },
+  {
+    "slug": "joel-oliveira",
+    "name": "Joel Oliveira",
+    "title": "Head of Quality Assurance",
+    "company": "Celfocus",
+    "country": "Portugal",
+    "photo": "images/speakers/joel-oliveira.png",
+    "linkedin": "https://www.linkedin.com/in/joeloliveira/",
+    "bio": "Joel Oliveira's career has been a thrilling journey through the exciting world of software development. With over two decades of experience, he has tackled a variety of roles, including developer, tester, technical and project manager, quality and engineering manager, and everything in between. Throughout his career, Joel has led teams of engineers in a diverse range of industries, from telecommunications and government to finance, defence, and aerospace.\n\nDriven by his dedication to improving the recognition and proficiency of the testing community, Joel founded the first online testing community in Portugal in 2009 and went on to establish the PSTQB – Portuguese Software Testing Qualifications Board the following year. His expertise in the field has earned him a place in the ISTQB working groups since 2011.\n\nAs a mentor, Joel finds joy in sharing his experiences and knowledge with others. You can often find him giving talks and workshops on a variety of topics, including software testing (manual, exploratory, automation, mobile, performance, security), engineering processes (waterfall, agile, continuous improvement, and CMMI), and career management (for testers and beyond).\n\nCurrently, Joel holds several positions as Head of Quality Assurance at Celfocus, Governance Chair at ISTQB and General Assembly President at PSTQB.",
+    "talk": {
+      "number": 6,
+      "title": "Performance Testing at Scale: When tools and scripts are no longer enough"
+    }
+  },
+  {
+    "slug": "klaudia-dussa-zieger",
+    "name": "Klaudia Dussa-Zieger",
+    "title": "Expert Consultant",
+    "company": "imbus AG",
+    "country": "Germany",
+    "photo": "images/speakers/klaudia-dussa-zieger.png",
+    "linkedin": "https://www.linkedin.com/in/klaudia-dussa-zieger/",
+    "bio": "Dr Klaudia Dussa-Zieger is a Team Leader for Consulting at imbus and a recognised expert in the field of software testing. She specialises in test management, the continuous improvement of test processes, and both the testing of AI-based systems and the application of AI in software testing.\n\nWith a strong passion for testing and quality, she has been involved in customer projects for more than 25 years. She is an accredited trainer for the ISTQB® Certified Tester Foundation and Advanced Levels and has taught software testing for many years as a lecturer at the University of Erlangen–Nuremberg. She is also a frequent speaker at international conferences.\n\nDr Dussa-Zieger actively contributes to standardisation work. Since March 2009, she has served as Chairwoman of the DIN working group \"System and Software Engineering\" and is deeply involved in international standardisation activities, including ISO/IEC/IEEE 29119. She has been a member of the German Testing Board (GTB) for over ten years and currently serves as its Deputy Chairwoman. In addition, she is President of the ISTQB® (International Software Testing Qualifications Board) and leads its AI Task Force, focusing on the challenges and potential of AI in software testing.",
+    "talk": {
+      "number": 7,
+      "title": "Quality with AI and AI with Quality"
+    }
+  },
+  {
+    "slug": "richard-seidl",
+    "name": "Richard Seidl",
+    "title": "Software Quality Expert",
+    "company": "",
+    "country": "Austria",
+    "photo": "images/speakers/richard-seidl.png",
+    "linkedin": "https://www.linkedin.com/in/richardseidl/",
+    "bio": "Richard \"Richie\" Seidl is a Software Testing Expert, Agile Quality Coach, and Podcast Host. Over the past 25 years, he has encountered a vast array of software throughout his professional journey: from the good to the bad, the large to the small, the new to the old. He's experienced software so magnificent it could bring one to tears, and others that make one cringe.\n\nRichie has helped teams and projects in various industries, such as administration, finance, automotive, and logistics, to improve their software quality, implement agile testing, and establish test automation.\n\nRichie is the author of several books on software testing, host of two Software Testing podcasts, and an international keynote speaker.\n\nIn 2025, he was awarded with the German Prize for Software Quality.",
+    "talk": {
+      "number": 8,
+      "title": "Testing Is a People Business - Why Quality Fails Without Human Connection"
+    }
+  },
+  {
+    "slug": "dr-lovelesh-beeharry",
+    "name": "Dr. Lovelesh Beeharry",
+    "title": "CEO",
+    "company": "GESL and Certilog",
+    "country": "Mauritius",
+    "photo": "images/speakers/dr-lovelesh-beeharry.png",
+    "linkedin": "https://www.linkedin.com/in/lovelesh-beeharry/",
+    "bio": "Lovelesh is a software quality leader, CEO of GESL and Certilog, and the Founder and President of MSTQB. With a 15-year background specializing in Non-Functional Testing, he brings a wealth of practical experience in manual and automated testing to his roles. Lovelesh also serves the global testing community as the ISTQB® Marketing WG Chair, contributing as a syllabus writer, coach, and frequent conference speaker.",
+    "talk": {
+      "number": 9,
+      "title": "Ctrl + Alt + Test: Stories from my QA Frontline"
+    }
+  },
+  {
+    "slug": "kari-kakkonen",
+    "name": "Kari Kakkonen",
+    "title": "Service Owner, Customer Expertise Development",
+    "company": "Gofore",
+    "country": "Finland",
+    "photo": "images/speakers/kari-kakkonen.png",
+    "linkedin": "https://www.linkedin.com/in/karikakkonen/",
+    "bio": "Mr. Kari Kakkonen has worked in software testing for 30 years and is the ICT Influencer of the Year 2025 in Finland. He co-authored 'ACT 2 LEAD Software Testing Leadership Handbook'. Kari is the 2021 EuroSTAR Testing Excellence Award winner. He is the CEO of Dragons Out Oy; created a fantasy book to teach software testing to children. Kari works at Gofore as the Service Owner of Customer Expertise Development, running a training business that provides software testing, agile, DevOps, and AI training services across Europe. Kari has volunteered in key roles at ISTQB, TMMi, and FiSTB. Kari is a seasoned speaker and passionate advocate for quality engineering and software testing.",
+    "talk": {
+      "number": 10,
+      "title": "Test Leadership at the Organizational Level"
+    }
+  },
+  {
+    "slug": "nishan-portoyan",
+    "name": "Nishan Portoyan",
+    "title": "Quality Ambassador",
+    "company": "Infometis",
+    "country": "Switzerland",
+    "photo": "images/speakers/nishan-portoyan.png",
+    "linkedin": "https://www.linkedin.com/in/nishan-portoyan/",
+    "bio": "Nishan Portoyan is an AI expert and Software Quality Ambassador with over 18 years of experience in software testing, test automation, and requirements engineering. He is deeply engaged in the testing community at both the international and national level, where he actively drives the evolution of testing practices and the integration of AI into the profession.\n\nIn his role at Infometis, Nishan leads AI consulting and quality initiatives, supporting companies in securely adopting AI, designing test automation strategies, and developing domain-specific AI assistants. His recent work focuses on Agentic AI autonomous systems that plan, adapt, and execute testing tasks, which he has successfully introduced in the financial industry to demonstrate the future of testing.\n\nA frequent international conference speaker and trainer, Nishan is passionate about sharing practical experiences, lessons learned, and innovative approaches that bridge technology and business. He combines deep technical knowledge with a strategic mindset, helping organizations achieve excellence in quality while navigating the opportunities and risks of emerging AI technologies.",
+    "talk": {
+      "number": 11,
+      "title": "When AI Enters the Test Team: The Conflict That Changes Everything"
+    }
+  }
+]

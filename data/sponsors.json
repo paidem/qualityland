@@ -1,0 +1,21 @@
+{
+  "tiers": [
+    {
+      "key": "signalSource",
+      "displayName": "Signal Source",
+      "sponsors": [
+        { "name": "Lithuanian Software Testing Qualifications Board", "logo": "images/logos/ltstqb.png", "url": "https://istqb.lt/" }
+      ]
+    },
+    {
+      "key": "associationPartners",
+      "displayName": "Association Partners",
+      "sponsors": [
+        { "name": "ISQI", "logo": "images/logos/isqi.png", "url": "https://isqi.org/" },
+        { "name": "Zenitech", "logo": "images/logos/zenitech.png", "url": "https://zenitech.co.uk/" },
+        { "name": "TestDevLab", "logo": "images/logos/testdevlab.png", "url": "https://www.testdevlab.com/" },
+        { "name": "INSOFT", "logo": "images/logos/insoft.png", "url": "https://insoft.lt/" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Quality Land 2026",
+  "subtitle": "CONFERENCE",
+  "tagline": "THIS IS THE SIGNAL",
+  "description": "No interference - just clearest insights in software testing and quality engineering, from the experts shaping industry standards, tooling, and real-world practice.",
+  "date": "MAY 6",
+  "year": 2026,
+  "venue": {
+    "name": "AC Hotel Vilnius",
+    "fullName": "AC Hotel by Marriott Vilnius",
+    "address": "Vasario 16-osios g. 5, Vilnius",
+    "description": "The hotel is situated in the central part of the city, providing convenient access to key business and cultural areas. It is within easy reach of Vilnius Old Town and offers good connectivity to public transport. The venue is approximately 5 km from the bus and train stations and around 9 km from Vilnius International Airport, ensuring convenient travel for both local and international attendees."
+  },
+  "stats": { "days": 1, "speakers": "10+", "attendees": 300 },
+  "ticketUrl": "https://tickets.paysera.com/en/event/quality-land-konferencija-apie-kokybe-ir-testavima#eventLocation",
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/ltstqb-international-software-testing-qualifications-board/",
+    "facebook": "https://www.facebook.com/profile.php?id=61584148454281"
+  },
+  "organizer": {
+    "name": "Lithuanian Software Testing Qualifications Board",
+    "url": "https://istqb.lt/",
+    "email": "info@istqb.lt"
+  },
+  "sponsorshipEmail": "signal@qualityland.lt",
+  "nav": [
+    { "label": "About", "href": "/#about" },
+    { "label": "Speakers", "href": "/#speakers" },
+    { "label": "Schedule", "href": "/#schedule" },
+    { "label": "Sponsorship", "href": "/#sponsorship" },
+    { "label": "Tickets", "href": "/#tickets" },
+    { "label": "Venue", "href": "/#venue" }
+  ]
+}

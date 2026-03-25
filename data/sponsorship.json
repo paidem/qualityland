@@ -1,0 +1,68 @@
+[
+  {
+    "key": "signalEmitter",
+    "name": "Signal Emitter",
+    "price": 3000,
+    "currency": "EUR",
+    "limit": 1,
+    "benefits": [
+      "Speaker slot (if available)",
+      "1 dedicated social media post",
+      "1 transmission video",
+      "1 transmission or frequency credit",
+      "Opening/closing credit",
+      "30 sec. video during breaks",
+      "Exhibition area",
+      "4 sponsor tickets",
+      "3 mentions on social media (posts)",
+      "Logo with link on event website",
+      "Logo visible at venue"
+    ]
+  },
+  {
+    "key": "signalAmplifier",
+    "name": "Signal Amplifier",
+    "price": 2000,
+    "currency": "EUR",
+    "benefits": [
+      "30 sec. video during breaks",
+      "Exhibition area",
+      "2 sponsor tickets",
+      "1 mention on social media (posts)",
+      "Logo with link on event website",
+      "Logo visible at venue"
+    ]
+  },
+  {
+    "key": "signalSupporter",
+    "name": "Signal Supporter",
+    "price": 1000,
+    "currency": "EUR",
+    "benefits": [
+      "2 sponsor tickets",
+      "1 mention on social media (posts)",
+      "Logo with link on event website",
+      "Logo visible at venue"
+    ]
+  },
+  {
+    "key": "failNightsSupporter",
+    "name": "Fail Nights Supporter",
+    "price": 1000,
+    "currency": "EUR",
+    "benefits": [
+      "Logo in main Fail Nights visual",
+      "1 social media mention"
+    ]
+  },
+  {
+    "key": "coffeeBreakSponsor",
+    "name": "Coffee Break Sponsor",
+    "price": 1000,
+    "currency": "EUR",
+    "benefits": [
+      "Coffee zone signage",
+      "1 social media mention"
+    ]
+  }
+]
