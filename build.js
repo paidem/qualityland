@@ -34,6 +34,17 @@ async function build() {
   // Configure Nunjucks
   const env = nunjucks.configure(TEMPLATES, { autoescape: true });
 
+  // Custom filters
+  env.addFilter('nl2br', function(str) {
+    if (!str) return '';
+    return str.replace(/\n/g, '<br>\n');
+  });
+
+  env.addFilter('formatPrice', function(num) {
+    if (!num && num !== 0) return '';
+    return num.toLocaleString('en-US');
+  });
+
   // Build context
   const ctx = {
     site, speakers, schedule, sponsors, tickets, sponsorship,
@@ -59,9 +70,13 @@ async function build() {
   await fs.writeFile(path.join(sponsorshipDir, 'index.html'), sponsorshipHtml);
 
   // 8. Render legal pages
+  // Strip first <h1> from markdown content since the template adds its own
+  function stripFirstH1(html) {
+    return html.replace(/<h1[^>]*>.*?<\/h1>\s*/, '');
+  }
   const legalPages = [
-    { slug: 'privacy-policy', title: 'Privacy Policy', content: privacyHtml },
-    { slug: 'terms-and-conditions', title: 'Terms & Conditions', content: termsHtml }
+    { slug: 'privacy-policy', title: 'Privacy Policy', content: stripFirstH1(privacyHtml) },
+    { slug: 'terms-and-conditions', title: 'Terms & Conditions', content: stripFirstH1(termsHtml) }
   ];
   for (const page of legalPages) {
     const pageDir = path.join(DIST, page.slug);

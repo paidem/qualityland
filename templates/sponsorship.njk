@@ -1,5 +1,46 @@
 {% extends "base.njk" %}
 {% block title %}Sponsorship Packages{% endblock %}
 {% block content %}
-<p>Sponsorship page coming soon</p>
+<section class="sponsorship-page">
+  <div class="container">
+    <h1 class="section-heading">Sponsorship Packages</h1>
+    <p class="sponsorship-page__intro">
+      Support the Quality Land conference and connect your brand with the software testing and quality engineering community.
+    </p>
+
+    <div class="sponsorship-page__grid">
+      {% for pkg in sponsorship %}
+      <div class="sponsorship-card{% if pkg.key === 'signalEmitter' %} sponsorship-card--featured{% endif %}">
+        {% if pkg.key === 'signalEmitter' %}
+        <span class="sponsorship-card__badge">Top Tier</span>
+        {% endif %}
+        <h2 class="sponsorship-card__name">{{ pkg.name }}</h2>
+        <div class="sponsorship-card__price">
+          &euro;{{ pkg.price | formatPrice }}
+        </div>
+        {% if pkg.limit %}
+        <p class="sponsorship-card__limit">Limited to {{ pkg.limit }} sponsor{{ 's' if pkg.limit > 1 }}</p>
+        {% endif %}
+        <ul class="sponsorship-card__benefits">
+          {% for benefit in pkg.benefits %}
+          <li class="sponsorship-card__benefit">{{ benefit }}</li>
+          {% endfor %}
+        </ul>
+        <a href="mailto:{{ site.sponsorshipEmail }}?subject=Sponsorship%20Inquiry%20-%20{{ pkg.name | urlencode }}" class="btn{% if pkg.key === 'signalEmitter' %} btn-accent{% else %} btn-outline{% endif %}">
+          Get in touch
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="sponsorship-page__contact">
+      <h2>Interested in Sponsoring?</h2>
+      <p>
+        Please submit your decision regarding event sponsorship no later than <strong>April 15, {{ site.year }}</strong>.
+        Contact us at <a href="mailto:{{ site.sponsorshipEmail }}">{{ site.sponsorshipEmail }}</a> to discuss sponsorship opportunities or request a custom package.
+      </p>
+      <a href="mailto:{{ site.sponsorshipEmail }}" class="btn btn-accent">Contact Us</a>
+    </div>
+  </div>
+</section>
 {% endblock %}
