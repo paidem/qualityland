@@ -1,6 +1,6 @@
 <section class="schedule" id="schedule">
   <div class="schedule__bg">
-    <img src="/images/backgrounds/schedule.gif" alt="" class="schedule__bg-img" loading="lazy">
+    <img src="{{ rootPath }}images/backgrounds/schedule.gif" alt="" class="schedule__bg-img" loading="lazy">
   </div>
   <div class="schedule__inner container">
     <h2 class="section-heading schedule__heading">Schedule</h2>
@@ -9,7 +9,7 @@
       {% for item in schedule %}
       <div class="schedule__entry schedule__entry--{{ item.type }}">
         <div class="schedule__icon">
-          <img src="/images/icons/{{ item.icon }}.png" alt="" width="40" height="40" loading="lazy">
+          <img src="{{ rootPath }}images/icons/{{ item.icon }}.png" alt="" width="40" height="40" loading="lazy">
         </div>
         <div class="schedule__time">
           <h3 class="schedule__time-text">{{ item.time }}</h3>

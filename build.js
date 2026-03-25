@@ -45,8 +45,13 @@ async function build() {
     return num.toLocaleString('en-US');
   });
 
+  // rootPath: "" for index (root), "../" for subpages in subdirectories
+  const rootCtx = { rootPath: '' };
+  const subCtx = { rootPath: '../' };
+
   // Build context
   const ctx = {
+    ...rootCtx,
     site, speakers, schedule, sponsors, tickets, sponsorship,
     aboutHtml, failNightsHtml
   };
@@ -59,14 +64,14 @@ async function build() {
   for (const speaker of speakers) {
     const speakerDir = path.join(DIST, speaker.slug);
     await fs.ensureDir(speakerDir);
-    const html = env.render('speaker.njk', { site, speaker });
+    const html = env.render('speaker.njk', { ...subCtx, site, speaker });
     await fs.writeFile(path.join(speakerDir, 'index.html'), html);
   }
 
   // 7. Render sponsorship page
   const sponsorshipDir = path.join(DIST, 'sponsorship-packages');
   await fs.ensureDir(sponsorshipDir);
-  const sponsorshipHtml = env.render('sponsorship.njk', { site, sponsorship });
+  const sponsorshipHtml = env.render('sponsorship.njk', { ...subCtx, site, sponsorship });
   await fs.writeFile(path.join(sponsorshipDir, 'index.html'), sponsorshipHtml);
 
   // 8. Render legal pages
@@ -81,7 +86,7 @@ async function build() {
   for (const page of legalPages) {
     const pageDir = path.join(DIST, page.slug);
     await fs.ensureDir(pageDir);
-    const html = env.render('legal.njk', { site, page });
+    const html = env.render('legal.njk', { ...subCtx, site, page });
     await fs.writeFile(path.join(pageDir, 'index.html'), html);
   }
 

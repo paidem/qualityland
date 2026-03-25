@@ -3,12 +3,12 @@
 {% block content %}
 <section class="speaker-page">
   <div class="container">
-    <a href="/#speakers" class="speaker-page__back">&larr; Back to speakers</a>
+    <a href="{{ rootPath }}#speakers" class="speaker-page__back">&larr; Back to speakers</a>
 
     <div class="speaker-page__layout">
       <div class="speaker-page__photo-col">
         <div class="speaker-page__photo">
-          <img src="/{{ speaker.photo }}" alt="{{ speaker.name }}" width="600" height="600">
+          <img src="{{ rootPath }}{{ speaker.photo }}" alt="{{ speaker.name }}" width="600" height="600">
         </div>
 
         {% if speaker.linkedin %}

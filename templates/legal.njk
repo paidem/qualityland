@@ -3,7 +3,7 @@
 {% block content %}
 <section class="legal">
   <div class="container">
-    <a href="/" class="legal__back">&larr; Back to main page</a>
+    <a href="{{ rootPath }}" class="legal__back">&larr; Back to main page</a>
     <h1>{{ page.title }}</h1>
     <div class="legal__content">
       {{ page.content | safe }}

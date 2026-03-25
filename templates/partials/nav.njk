@@ -1,7 +1,7 @@
 <header class="nav" id="nav">
   <div class="nav__inner container">
-    <a href="/" class="nav__logo">
-      <img src="/images/logos/ql-logo.png" alt="Quality Land" width="160" height="50">
+    <a href="{{ rootPath }}" class="nav__logo">
+      <img src="{{ rootPath }}images/logos/ql-logo.png" alt="Quality Land" width="160" height="50">
     </a>
 
     <input type="checkbox" id="nav-toggle" class="nav__toggle-checkbox" aria-label="Toggle navigation">
@@ -13,7 +13,7 @@
 
     <nav class="nav__links" role="navigation">
       {% for item in site.nav %}
-        <a href="{{ item.href }}" class="nav__link">{{ item.label }}</a>
+        <a href="{{ rootPath }}{{ item.href | replace('/', '') }}" class="nav__link">{{ item.label }}</a>
       {% endfor %}
     </nav>
   </div>
