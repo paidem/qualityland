@@ -1,0 +1,31 @@
+<section class="tickets" id="tickets">
+  <div class="tickets__inner container">
+    <h2 class="section-heading">Secure Your Spot</h2>
+    <div class="tickets__grid">
+      {% for ticket in tickets %}
+      <div class="ticket-card">
+        <div class="ticket-card__header">
+          <h3 class="ticket-card__heading">{{ ticket.heading }}</h3>
+          <p class="ticket-card__subtitle">{{ ticket.subtitle }}</p>
+          <p class="ticket-card__price">&euro;{{ ticket.price }} {{ ticket.currency }}</p>
+        </div>
+        <div class="ticket-card__divider"></div>
+        <p class="ticket-card__includes">What's included:</p>
+        <ul class="ticket-card__features">
+          {% for feature in ticket.features %}
+          <li class="ticket-card__feature">
+            <strong>{{ feature.label }}</strong> — {{ feature.description }}
+          </li>
+          {% endfor %}
+        </ul>
+        <div class="ticket-card__cta">
+          <a href="{{ site.ticketUrl }}" class="btn" target="_blank" rel="noopener noreferrer">Reserve a Spot</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="tickets__decoration">
+      <img src="/images/backgrounds/circle.png" alt="" class="tickets__circle" loading="lazy">
+    </div>
+  </div>
+</section>

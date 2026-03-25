@@ -1,0 +1,25 @@
+<section class="venue" id="venue">
+  <div class="venue__bg">
+    <img src="/images/backgrounds/venue.jpg" alt="{{ site.venue.fullName }}" class="venue__bg-img" loading="lazy">
+    <div class="venue__overlay"></div>
+  </div>
+  <div class="venue__inner container">
+    <div class="venue__content">
+      <h2 class="venue__heading">Conference Venue</h2>
+      <p class="venue__name">Quality Land 2026 will take place at {{ site.venue.fullName }}, located in Vilnius, Lithuania.</p>
+      <p class="venue__description">{{ site.venue.description }}</p>
+    </div>
+    <div class="venue__map">
+      <iframe
+        src="https://maps.google.com/maps?q=Vasario%2016-osios%20Street%20No%205,%20Vilnius,%20LT-01106%20Lithuania&t=m&z=13&ie=UTF8&output=embed"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="AC Hotel Vilnius location">
+      </iframe>
+    </div>
+  </div>
+</section>

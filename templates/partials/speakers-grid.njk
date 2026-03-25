@@ -1,0 +1,17 @@
+<section class="speakers" id="speakers">
+  <div class="speakers__inner container">
+    <h2 class="section-heading">Speakers</h2>
+    <p class="speakers__subtitle">Learn from the experts who shape standards, tooling, and practices across the testing industry.</p>
+    <div class="speakers__grid">
+      {% for speaker in speakers %}
+      <a href="/{{ speaker.slug }}/" class="speaker-card">
+        <div class="speaker-card__photo">
+          <img src="/{{ speaker.photo }}" alt="{{ speaker.name }}" loading="lazy" width="400" height="400">
+        </div>
+        <h3 class="speaker-card__name">{{ speaker.name }}</h3>
+        <p class="speaker-card__info">{{ speaker.title }}{% if speaker.company %} at {{ speaker.company }}{% endif %}, {{ speaker.country }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

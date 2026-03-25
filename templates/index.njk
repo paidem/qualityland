@@ -1,4 +1,11 @@
 {% extends "base.njk" %}
 {% block content %}
-  <p>Site under construction</p>
+  {% include "partials/hero.njk" %}
+  {% include "partials/about.njk" %}
+  {% include "partials/speakers-grid.njk" %}
+  {% include "partials/schedule.njk" %}
+  {% include "partials/fail-nights.njk" %}
+  {% include "partials/sponsors.njk" %}
+  {% include "partials/tickets.njk" %}
+  {% include "partials/venue.njk" %}
 {% endblock %}

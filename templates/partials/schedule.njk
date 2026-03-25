@@ -1,0 +1,39 @@
+<section class="schedule" id="schedule">
+  <div class="schedule__bg">
+    <img src="/images/backgrounds/schedule.gif" alt="" class="schedule__bg-img" loading="lazy">
+  </div>
+  <div class="schedule__inner container">
+    <h2 class="section-heading schedule__heading">Schedule</h2>
+    <p class="schedule__subtitle">Your day at Quality Land starts here</p>
+    <div class="schedule__timeline">
+      {% for item in schedule %}
+      <div class="schedule__entry schedule__entry--{{ item.type }}">
+        <div class="schedule__icon">
+          <img src="/images/icons/{{ item.icon }}.png" alt="" width="40" height="40" loading="lazy">
+        </div>
+        <div class="schedule__time">
+          <h3 class="schedule__time-text">{{ item.time }}</h3>
+        </div>
+        <div class="schedule__details">
+          {% if item.speakerSlug %}
+            <p class="schedule__speaker-ref">
+              #{{ item.number }}
+              {% if item.type == "keynote" %}Keynote{% elif item.type == "game" %}Game{% else %}Talk{% endif %}
+              by {% for s in speakers %}{% if s.slug == item.speakerSlug %}{{ s.name }}{% endif %}{% endfor %}
+            </p>
+            <p class="schedule__talk-title">{{ item.title }}</p>
+          {% elif item.speakerName %}
+            <p class="schedule__speaker-ref">{{ item.title }}</p>
+            <p class="schedule__talk-title">{{ item.description }}</p>
+          {% else %}
+            <p class="schedule__entry-title">{{ item.title }}</p>
+            {% if item.description %}
+            <p class="schedule__entry-desc">{{ item.description }}</p>
+            {% endif %}
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

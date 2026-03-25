@@ -1,0 +1,30 @@
+<section class="about" id="about">
+  <div class="about__inner container">
+    <div class="about__image">
+      <img src="/images/backgrounds/location-pin.png" alt="" class="about__location-img" loading="lazy">
+    </div>
+    <div class="about__content">
+      <h2 class="about__heading">QUALITY LAND IS WHERE QUALITY BECOMES A CULTURE - AND THE COMMUNITY IS THE FORCE BEHIND IT. JOIN THE FREQUENCY.</h2>
+    </div>
+  </div>
+  <div class="about__stats container">
+    <div class="about__stat">
+      <span class="about__stat-number">{{ site.stats.days }}</span>
+      <span class="about__stat-label">DAY</span>
+    </div>
+    <div class="about__stat">
+      <span class="about__stat-number">{{ site.stats.speakers }}</span>
+      <span class="about__stat-label">SPEAKERS</span>
+    </div>
+    <div class="about__stat">
+      <span class="about__stat-number">{{ site.stats.attendees }}</span>
+      <span class="about__stat-label">ATTENDEES</span>
+    </div>
+  </div>
+  <div class="about__text container">
+    {{ aboutHtml | safe }}
+    <div class="about__link-wrap">
+      <a href="https://istqb.lt/" class="btn" target="_blank" rel="noopener noreferrer">Learn more</a>
+    </div>
+  </div>
+</section>

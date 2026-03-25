@@ -1,0 +1,20 @@
+<section class="sponsors" id="sponsorship">
+  <div class="sponsors__inner container">
+    <p class="sponsors__text">Sponsors make the event possible — supporting a culture where curiosity, practice, and honest discussion come first.</p>
+    <div class="sponsors__cta">
+      <a href="/sponsorship-packages/" class="btn btn-outline">Sponsorship Packages</a>
+    </div>
+    {% for tier in sponsors.tiers %}
+    <div class="sponsors__tier">
+      <h3 class="sponsors__tier-name">{{ tier.displayName }}</h3>
+      <div class="sponsors__logos">
+        {% for sponsor in tier.sponsors %}
+        <a href="{{ sponsor.url }}" class="sponsors__logo-link" target="_blank" rel="noopener noreferrer">
+          <img src="/{{ sponsor.logo }}" alt="{{ sponsor.name }}" class="sponsors__logo-img" loading="lazy">
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

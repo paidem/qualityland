@@ -1,0 +1,32 @@
+<section class="hero">
+  <div class="hero__bg">
+    <img src="/images/backgrounds/hero.gif" alt="" class="hero__bg-img" loading="eager">
+  </div>
+  <div class="hero__content container">
+    <div class="hero__text">
+      <h1 class="hero__title">
+        <span class="hero__title-line">QUALITY</span>
+        <span class="hero__title-line">LAND</span>
+        <span class="hero__title-line">2026</span>
+      </h1>
+      <p class="hero__subtitle">CONFERENCE</p>
+      <p class="hero__tagline">{{ site.tagline }}</p>
+      <p class="hero__description">{{ site.description }}</p>
+      <div class="hero__info">
+        <div class="hero__date">
+          <h2 class="hero__date-text">{{ site.date }}</h2>
+        </div>
+        <div class="hero__venue-info">
+          <h3 class="hero__venue-name">{{ site.venue.name | upper }}</h3>
+          <p class="hero__venue-address">{{ site.venue.address | upper }}</p>
+        </div>
+      </div>
+      <div class="hero__cta">
+        <a href="{{ site.ticketUrl }}" class="btn btn-dark" target="_blank" rel="noopener noreferrer">Reserve a Spot</a>
+      </div>
+    </div>
+    <div class="hero__poster">
+      <img src="/images/backgrounds/poster.png" alt="Quality Land 2026" class="hero__poster-img" loading="eager">
+    </div>
+  </div>
+</section>
